@@ -1,0 +1,35 @@
+:root {
+    
+    --CALCULATOR_COLOR: rgb(82, 253, 253);
+
+    /*
+
+    ~~~CALCULATOR COLORS~~~
+    --NUMBER_BTN_BG_COLOR:;
+    --NUMBER_BTN_TXT_COLOR:;
+    --OPERATOR_BTN_BG_COLOR:;
+    --OPERATOR_BTN_TXT_COLOR:;
+    --SCREEN_BG_COLOR:;
+    --SCREEN_TXT_COLOR:;
+
+    ~~~PAGE COLORS~~~
+    --BACKGROUND_COLOR:;
+    --TXT_COLOR:;
+    */
+}
+#calculator-body {
+    width: 300px;
+    height: 500px;
+    background-color: var(--CALCULATOR_COLOR);
+    border-radius: 4%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+}
+
+.number-button {
+    background-color: bisque;
+    text-align: center;
+    border-radius: 10%;
+    
+
+}
