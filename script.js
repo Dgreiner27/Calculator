@@ -1,5 +1,3 @@
-// BASIC MATH FUNCTIONS
-
 function add(a, b){
     return a + b;
 }
